@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ef2727d-3ec1-4274-a259-d9aa9330b671" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Covid-19-DATATHON.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FDM-MINI-Stock-Prices-Prediction.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/ACL CABLES PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/ASIA ASSET FINANCE PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/ASIRI HOSPITAL HOLDINGS PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/CARGILLS (CEYLON) PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/CEYLON TOBACCO COMPANY PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/CHEVRON LUBRICANTS LANKA PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/COLOMBO HILTON.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/COMMERCIAL BANK OF CEYLON PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/DFCC BANK PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/DIALOG AXIATA PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/DILMAH CEYLON TEA COMPANY PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/DISTILLERIES COMPANY OF SRI LANKA PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/HAYLEYS PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/HEMAS HOLDINGS PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/LANKA IOC PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/LAUGFS GAS PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/LION BREWERY CEYLON PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/LVL ENERGY FUND PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/MACKWOODS ENERGY PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/NATIONAL DEVELOPMENT BANK PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/NATIONS TRUST BANK PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/NAWALOKA HOSPITALS PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/NESTLE LANKA PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/PAN ASIA BANKING CORPORATION PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/SAMPATH BANK PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/SANASA DEVELOPMENT BANK PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/SENKADAGALA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/SEYLAN BANK PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/SOFTLOGIC HOLDINGS PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_stock_files/VALLIBEL FINANCE PLC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vendor/Stock Predictor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jbW1Tlt3tuNbzeoPbq8XQYtuW0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\janit\Videos\Covid-19-DATATHON\templates" />
+      <recent name="C:\Users\janit\Videos\Covid-19-DATATHON\geographycal_file" />
+      <recent name="C:\Users\janit\Videos\Covid-19-DATATHON\population_files" />
+      <recent name="C:\Users\janit\Videos\Covid-19-DATATHON\sl_covid_island_wise" />
+      <recent name="C:\Users\janit\Videos\Covid-19-DATATHON\population" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ef2727d-3ec1-4274-a259-d9aa9330b671" name="Default Changelist" comment="" />
+      <created>1604073066680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604073066680</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2053" y="216" key="FileChooserDialogImpl" timestamp="1604268176381">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2053" y="216" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604268176381" />
+    <state x="1971" y="38" width="710" height="963" key="find.popup" timestamp="1604218836409">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1971" y="38" width="710" height="963" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604218836409" />
+    <state x="2385" y="5" width="840" height="174" key="search.everywhere.popup" timestamp="1604264236883">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2385" y="5" width="840" height="174" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604264236883" />
+  </component>
+</project>

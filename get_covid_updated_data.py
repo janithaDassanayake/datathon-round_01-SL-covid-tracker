@@ -2,8 +2,6 @@ import requests as rs
 import json
 import pandas as pd
 import datetime
-import getupdate as update
-from datetime import timedelta
 
 
 def get_all_sl_covid_data():

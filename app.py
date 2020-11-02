@@ -1,6 +1,5 @@
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request
 import getupdate as update
-import utils
 import SEIR_model_island as SEIR_model
 import get_covid_updated_data as sl_data
 import train_models as train_model
@@ -53,8 +52,6 @@ def perform_covid_training(filename, covid_island_df, predict_model, Days_foreca
             all_data_recoverd.append(
                 (((regression_models_outputs[model_name])[5]), "true", 'Predicted Recovered', '#008000'))
 
-    print('length 0', Actual_Confirmed_all_list[0])
-    print('length 1', Actual_Confirmed_all_list[1])
 
     Confirmed_prediction_data = []
     Covid_model_evaluation = []
@@ -99,9 +96,6 @@ def perform_covid_training(filename, covid_island_df, predict_model, Days_foreca
 
 
 sl_all_covid_data = sl_data.get_all_sl_covid_data()
-# covid_files = utils.read_country_covid_files('clusterFile')
-# covid_district_files = utils.read_district_covid_files('sl_covid_District_wise')
-# population_files = utils.read_district_population_file('population_files')
 SEIR_model.AdjustDates()
 cordinates = SEIR_model.FetchCordinates()
 all_district_details_dict = SEIR_model.getAllDistrictInfo()
@@ -177,9 +171,6 @@ def landing_function2():
         input = enddate.replace(' 00:00:00', '')
         forcast_date_List_new.append(input)
 
-    file_name = 'COVIDSL.COM Data.csv'
-    Prediction_Model_algoritms = ['SEIR']
-    forcastingDays = 5
 
     return render_template('SEIR_country.html', all_test_evaluations=[], show_results_output="true",
                            file_len=len([]), sl_covid_file=[],
@@ -334,7 +325,6 @@ def Cluster_process():
 
 @app.route('/process', methods=['POST'])
 def process():
-    Prediction_Model_algoritms = ['linear_regression']
     sl_district_file_name = request.form['district_file_name']
     # get predicted two days values
     forcasted_values = SEIR_model.all_district_details[str(sl_district_file_name)]['predicted_two_days']

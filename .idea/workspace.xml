@@ -20,49 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef2727d-3ec1-4274-a259-d9aa9330b671" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Covid-19-DATATHON.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FDM-MINI-Stock-Prices-Prediction.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEIR_model_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/SEIR_model_island.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/ACL CABLES PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/ASIA ASSET FINANCE PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/ASIRI HOSPITAL HOLDINGS PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/CARGILLS (CEYLON) PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/CEYLON TOBACCO COMPANY PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/CHEVRON LUBRICANTS LANKA PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/COLOMBO HILTON.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/COMMERCIAL BANK OF CEYLON PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/DFCC BANK PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/DIALOG AXIATA PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/DILMAH CEYLON TEA COMPANY PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/DISTILLERIES COMPANY OF SRI LANKA PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/HAYLEYS PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/HEMAS HOLDINGS PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/LANKA IOC PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/LAUGFS GAS PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/LION BREWERY CEYLON PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/LVL ENERGY FUND PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/MACKWOODS ENERGY PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/NATIONAL DEVELOPMENT BANK PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/NATIONS TRUST BANK PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/NAWALOKA HOSPITALS PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/NESTLE LANKA PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/PAN ASIA BANKING CORPORATION PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/SAMPATH BANK PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/SANASA DEVELOPMENT BANK PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/SENKADAGALA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/SEYLAN BANK PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/SOFTLOGIC HOLDINGS PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_stock_files/VALLIBEL FINANCE PLC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/Stock Predictor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_covid_updated_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_covid_updated_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

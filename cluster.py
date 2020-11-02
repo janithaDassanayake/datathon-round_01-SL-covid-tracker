@@ -1,12 +1,7 @@
-import os
-import numpy as np
-from sklearn.linear_model import LinearRegression
-import calendar
 import datetime
 from datetime import datetime
 from datetime import timedelta
 import pandas as pd
-import numpy as np
 pd.options.mode.chained_assignment = None
 import numpy as np
 from sklearn.linear_model import LinearRegression

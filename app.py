@@ -8,7 +8,6 @@ import pandas as pd
 import datetime
 import numpy as np
 
-
 app = Flask(__name__)
 
 new_update_list = update.scrape_current_updates()
@@ -97,12 +96,11 @@ sl_all_covid_data = sl_data.get_all_sl_covid_data()
 SEIR_model.AdjustDates()
 cordinates = SEIR_model.FetchCordinates()
 
-
 '''============================================================================================================'''
 
 
 @app.route('/Linear_Regression')
-def landing_function():
+def landing_function2():
     file_name = 'COVIDSL.COM Data.csv'
     Prediction_Model_algoritms = ['linear_regression']
     forcastingDays = 5
@@ -128,7 +126,7 @@ def landing_function():
 
 
 @app.route('/')
-def landing_function2():
+def landing_function():
     file_name = 'COVIDSL.COM Data.csv'
     Prediction_Model_algoritms = ['linear_regression']
     forcastingDays = 5
@@ -184,8 +182,6 @@ def landing_function2():
                            lenvv=len(Actual_Confirmed_all_list))
 
 
-
-
 # main driver function
 if __name__ == '__main__':
-    app.run( )
+    app.run()

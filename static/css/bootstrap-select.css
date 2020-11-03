@@ -51,7 +51,7 @@ select.selectpicker {
 .bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger:active,
 .bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info:active,
 .bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark:active {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 255, 0.5);
 }
 .bootstrap-select > select {
   position: absolute !important;

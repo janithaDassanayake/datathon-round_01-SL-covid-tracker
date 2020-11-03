@@ -1,7 +1,6 @@
 import utils
 
 
-
 def train_predict_plot(file_name, covid_df, model_list, forcastingDays):
     prediction_models_outputs = {}
 

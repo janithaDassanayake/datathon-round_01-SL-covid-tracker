@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
 
 body {
-    background: #fff;
+    background: #16160d;
     font-family: 'Josefin Sans', sans-serif
 }
 
@@ -14,15 +14,15 @@ h3 {
 }
 
 .box-part {
-    background: #F0FFFF;
+    background: #16160d;
     padding: 60px 10px;
     margin: 30px 0px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(2, 0, 2, 0.19);
     margin-bottom: 25px
 }
 
 .box-part:hover {
-    background: #000000
+    background: #16160d
 }
 
 .box-part:hover .fa,
@@ -41,5 +41,5 @@ h3 {
 }
 
 .fa {
-    color: #00BFFF
+    color: #16160d
 }

@@ -20,7 +20,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <title>SL Covid-19 Cases Prediction</title>
+    <title>ලංකාවේ Covid-19 Cases Prediction</title>
     <link rel="shortcut icon" href="{{ url_for('static', filename='sri-lanka-flag-waving-icon-256.png') }}">
 
     <link rel="stylesheet"
@@ -46,7 +46,7 @@
 
 </head>
 
-<body id="page-top" style="background:#334d50">
+<body id="page-top" style="background:red">
 
 <div id="popUpMain">
     <div id="popup">
@@ -55,20 +55,20 @@
 </div>
 
 <!-- Page Wrapper -->
-<div id="wrapper" style="background:#cbcaa5">
+<div id="wrapper" style="background:red">
 
 
 
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" style="background:#0f3443" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" style="background:#0d1616" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
             <div class="sidebar-brand-icon rotate-n-15">
-                <img style="width:70px;height:50px" src="{{ url_for('static', filename='sri-lanka-flag-waving-icon-256.png')}}" >
+                <img src="https://img.icons8.com/fluent/48/000000/virus.png"/>
             </div>
-            <div class="sidebar-brand-text mx-3">SL Covid-19 PREDICTOR</div>
+            <div class="sidebar-brand-text mx-3">ලංකාවේ COVID Prediction</div>
         </a>
 
         <!-- Divider -->
@@ -93,7 +93,8 @@
             <h4 style="font-size:93%;color:white;">{{current_date_time_list[0]}}  |  {{current_date_time_list[1]}}</h4>
 
             <!-- Heading -->
-            <div class="sidebar-brand-text mx-5" style="color:black;">
+            <!-- Heading -->
+            <div class="sidebar-brand-text mx-5" style="color:#FFBF00;">
 
             <div >
                 <div class="box-part text-center"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-calendar2-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -103,6 +104,7 @@
                 </svg></i>
                     <div class="title" >
                         <h3 style="font-size:150%;">Confirmed</h3>
+                        <h5 style="font-size:90%;">ආසාධිතවු මුලු ගණන</h5>
                     </div>
                     <div class="title"> <h2>{{case_values[0]}}</h2> </div>
                 </div>
@@ -116,6 +118,7 @@
 </svg></i>
                     <div class="title">
                         <h3 style="font-size:150%;">Recovered</h3>
+                        <h5 style="font-size:90%;">සුව වූ සංඛ්‍යාව</h5>
                     </div>
                     <div class="title" style="font-size:117%;"> <h2>{{case_values[3]}}</h2> </div>
                 </div>
@@ -129,6 +132,7 @@
 </svg></i>
                     <div class="title">
                         <h3 style="font-size:150%;">Active Cases</h3>
+                         <h5 style="font-size:90%;">ආසාධිත සංඛ්‍යාව</h5>
                     </div>
                     <div class="title"> <h2>{{case_values[1]}}</h2> </div>
                 </div>
@@ -139,6 +143,7 @@
 </svg></i>
                     <div class="title">
                         <h3 style="font-size:150%;">New Cases</h3>
+                        <h5 style="font-size:90%;">නව ආසාදිතයින්</h5>
                     </div>
                     <div class="title"> <h2>{{case_values[2]}}</h2> </div>
                 </div>
@@ -150,6 +155,7 @@
 </svg></i>
                     <div class="title">
                         <h3 style="font-size:150%;">Deaths</h3>
+                        <h5 style="font-size:90%;">කොරෝනා මරණ</h5>
                     </div>
             <div class="title"> <h2>{{case_values[4]}}</h2> </div>
                 </div>
@@ -157,7 +163,6 @@
 
 
             </div>
-
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -168,20 +173,20 @@
 
     </ul>
 
-    <div id="content-wrapper" class="d-flex flex-column"style="background:#243b55">
+    <div id="content-wrapper" class="d-flex flex-column"style="background:#47476b">
         <!-- Main Content -->
-        <div id="content"style="background:#007991">
+        <div id="content"style="background:#47476b">
 
 
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm" style="background-color: #0d1616">
   <!-- Brand -->
-  <a class="navbar-brand" href="Districs"> </a>
+  <a class="navbar-brand" href=""> </a>
 
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="/" >COUNTRY statistics</a>
+      <a  class="btn btn-primary" href="/"   >COUNTRY statistics</a>
     </li>
 
     <li class="nav-item">
@@ -189,7 +194,30 @@
     </li>
 
    <li class="nav-item">
-      <a class="nav-link" href="Districs"> DISTRICT Prediction </a>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Cluster Prediction
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle2">DISTRICT Prediction feature Coming Soon</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          This feature is under construction . It will be here soon <br>
+          Thank you !
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     </li>
 
       <li class="nav-item">
@@ -197,7 +225,30 @@
     </li>
 
       <li class="nav-item">
-      <a class="nav-link" href="cluster"> CLUSTER Prediction</a>
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Cluster Prediction
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle1">Cluster Prediction feature Coming Soon</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          This feature is under construction . It will be here soon <br>
+          Thank you !
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     </li>
 
       <li class="nav-item">
@@ -205,7 +256,30 @@
     </li>
 
        <li class="nav-item">
-      <a class="nav-link" href="geographical"> Geographical Prediction</a>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Geographical Prediction
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">This feature Coming Soon</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          This feature is under construction . It will be here soon<br>
+          Thank you !
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     </li>
 
     <!-- Dropdown -->
@@ -217,8 +291,8 @@
 
 <br>
             {% if show_results_output == "false" %}
-            <p style="text-align:center;margin-top:15%;color:white">
-                    <i class="fas fa-cogs fa-5x" style="color:#304352;"></i>
+            <p style="text-align:center;margin-top:15%;color:red">
+                    <i class="fas fa-cogs fa-5x" style="color:#0d1616;"></i>
                     <br/>
                     <br/>
 
@@ -239,12 +313,12 @@
                           <div class="col-xl-12 col-lg-7">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"style="background:#0f3443">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"style="background:#0d1616">
                                     <h6 style="color:white;">ACTUAL VS PREDICTED Confirmed Cases</h6>
 
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body" style="color:#00bf8f">
+                                <div class="card-body" style="color:#0d1616">
                                     <div class="chart-area" >
                                         <canvas id="myAreaChart_1"></canvas>
                                     </div>
@@ -263,7 +337,7 @@
                             <p style="color:white;">Predicted Confirm Count for the next 2 days from {{ prediction_result_date }} ! Check below  </p>
 
                             <div class="card shadow mb-4">
-                                <div class="card-header py-3" style="background:#0f3443">
+                                <div class="card-header py-3" style="background:#0d1616">
                                     <h6 style="text-align:center; color:white;">PREDICTING 2 DAYS INTO FUTURE </h6>
                                 </div>
                                 <div class="card-body">
@@ -289,6 +363,56 @@
                             </div>
                         </div>
 
+                    <!--piechart---------------------------->
+
+                    <div class="card-body">
+                    <div class="row">
+                          <div class="col-xl-6 col-lg-7">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"style="background:#0d1616">
+                                    <h6 style="color:white; text-align: center; alignment: center; font-weight: bolder; font-size: larger">Death Count vs Active Count vs Recovered Count</h6>
+
+                                </div>
+                                <!-- Card Body -->
+                                    <div class="card-body" style="color:#0d1616">
+                                        <div id="chartContainer3" style="height: 370px; width: 100%;"></div>
+                                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                         <div class="col-xl-6 col-lg-7">
+
+                          <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"style="background:#0d1616;">
+                                    <h6 style="color:white; text-align: center; alignment: center; font-weight: bolder; font-size: larger">Country Current Situation</h6>
+
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body" style="background:#d1616">
+                                        <div id="chartContainer4" style="height: 370px; width: 100%;background:#0d1616;"></div>
+                                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                </div>
+                           </div>
+
+                        </div>
+
+                     </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <!----------------------------------------->
 
 
                             <!-- Begin Page Content -->
@@ -297,7 +421,7 @@
                             <!-- Page Heading -->
                             <!-- DataTales Example -->
                             <div class="card shadow mb-4">
-                                <div class="card-header py-3" style="background:#0f3443">
+                                <div class="card-header py-3" style="background:#0d1616">
                                     <h6 style="text-align:center; color:white;">BREAKDOWN OF THE SITUATION IN SRI LANKA</h6>
                                 </div>
                                 <div class="card-body">
@@ -360,7 +484,7 @@
     <div class="card indigo text-center z-depth-2">
       <div class="card-body">
 
-        <h3 class="text-uppercase font-weight-bold amber-text mt-2 mb-3"><strong style="color:blue;">  Coronavirus (COVID-19) Calculated Rates </strong><i style="color:red;" class="glyphicon glyphicon-signal"></i></h3>
+        <h3 class="text-uppercase font-weight-bold amber-text mt-2 mb-3"><strong style="color:#4d4d00;">  Coronavirus (COVID-19) Calculated Rates </strong><i style="color:red;" class="glyphicon glyphicon-signal"></i></h3>
         <p class="white-text mb-0" style="color:black;">Last updated: {{current_date_time_list[0]}}  |  {{current_date_time_list[1]}}</p>
 
       </div>
@@ -390,7 +514,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer" style="background:#0f3443" >
+            <footer class="sticky-footer" style="background:#0d1616" >
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                          <marquee><span>Copyright &copy; SLIIT Covid-19 Prediction - 2020</span> </marquee>
@@ -555,11 +679,82 @@ $('select').selectpicker();
 
     </script>
 
-     <script>
 
 
 
- </script>
+<script>
+window.onload = function () {
+    CanvasJS.addColorSet("greenShades",
+                [//colorSet Array
+
+                "#ffff66",
+                "#4d79ff",
+                "#ff1a1a",
+                "#ff1a75",
+                "#90EE90"
+                ]);
+    var chart = new CanvasJS.Chart("chartContainer4", {
+        animationEnabled: true,
+        colorSet: "greenShades",
+        title: {
+            text: "COVID-19 Total Case Percentages"
+        },
+        data: [{
+            type: "pie",
+            startAngle: 240,
+            yValueFormatString: "##0.00\"%\"",
+            indexLabel: "{label} {y}",
+            dataPoints: [
+                {y: {{new_rate_lists[0]}}, label: "Recovered Patients"},
+                {y: {{new_rate_lists[3]}}, label: "Active Patients"},
+                {y: {{new_rate_lists[1]}}, label: "Deaths"},
+            ]
+        }]
+    });
+    chart.render();
+
+
+    var chart = new CanvasJS.Chart("chartContainer3", {
+	animationEnabled: true,
+                colorSet: "greenShades",
+	title: {
+		text: "COVID-19 Total Cases Breakdown"
+	},
+	data: [{
+		type: "column",
+		startAngle: 240,
+		yValueFormatString: "##0.00\"\"",
+		indexLabel: "{label} {y}",
+		dataPoints: [
+			{y: {{case_values[3]}}, label: "Recovered Patients"},
+			{y: {{case_values[1]}}, label: "Active Patients"},
+			{y: {{case_values[4]}}, label: "Deaths"},
+		]
+	}]
+});
+chart.render();
+
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

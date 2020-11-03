@@ -21,42 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9defdb1a-d39d-4fcb-b279-4961b23cad5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNN_Model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEIR_model_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/SEIR_model_island.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clusterFile/cluster_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geographycal_file/geograohycal.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Anuradhapura.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Badulla.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Colombo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Galle.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Gampaha.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Hambantota.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Jaffna.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Kalutara.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Kandy.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Kegalle.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Kurunegala.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Mannar.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Matale.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Matara.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Moneragala.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/NuwaraEliya.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Puttalam.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Ratnapura.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Trincomalee.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Unspecified.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_covid_District_wise/Vavuniya.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-select.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/SEIR_country.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SEIR_country.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cluster.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/geographical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,10 +70,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1990" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604433247006" />
-    <state x="2053" y="216" key="FileChooserDialogImpl" timestamp="1604338960115">
+    <state x="2053" y="216" key="FileChooserDialogImpl" timestamp="1604435335515">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2053" y="216" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604338960115" />
+    <state x="2053" y="216" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604435335515" />
     <state x="-9" y="23" width="1328" height="764" key="dock-window-1" timestamp="1604419829260">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

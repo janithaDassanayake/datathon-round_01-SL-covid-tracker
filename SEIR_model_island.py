@@ -5,15 +5,9 @@ from scipy.integrate import solve_ivp
 import datetime
 from datetime import timedelta
 import math
-import os
 from datetime import datetime
+pd.options.mode.chained_assignment = None
 
-
-pd.options.mode.chained_assignment = None  # default='warn'
-# %matplotlib inline
-
-# initialize global variables
-# initialize global variables
 loaddf = pd.DataFrame()
 train = pd.DataFrame()
 train_loc = pd.DataFrame()
@@ -272,14 +266,6 @@ def FetchCordinates():
     return predictedvaluesSEIR_x, list(predictedvaluesSEIR_y), valuesSEIR_x, list(valuesSEIR_y)
 
 
-# predictedvaluesSEIR_x = predicted x
-# list(predictedvaluesSEIR_y) = predicted y
-# valuesSEIR_x = current X
-# list(valuesSEIR_y) = current y
-
-'''===========================================for EIR Plot ============================================='''
-
-
 def FetchCordinatedEIR():
     global exp_cordinate_y
     global inf_cordinate_y
@@ -289,14 +275,11 @@ def FetchCordinatedEIR():
     return exp_cordinate_y, inf_cordinate_y, rec_cordinate_y, valuesSEIR_x
 
 
-# valuesSEIR_x = days
 TuneDataset()
 CountrySEIR(21000000)
 
 ''' ========================================================== '''
 
-# read each file and save it to a dictionary
-# {distrcitname : dataframe}
 def AdjustDates():
     global valuesSEIR_x
     global predictedvaluesSEIR_x

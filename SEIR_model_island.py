@@ -184,7 +184,7 @@ def time_varying_reproduction(t):
     if (count < max_days):
         num = - math.log((N - train_loc['ConfirmPerday'][count]) / (train_loc['Confirmed'][count]))
         den = ((train_loc['ConfirmPerday'][count] / N) - (1 - (train_loc['Confirmed'][count] / N)))
-        result = (num / den) / 4.8
+        result = (num / den) / 4.75
         currentconfirmed[count] = train_loc['Confirmed'][count]
 
         return result

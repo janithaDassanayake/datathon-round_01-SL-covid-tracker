@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9defdb1a-d39d-4fcb-b279-4961b23cad5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_covid_updated_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_covid_updated_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEIR_model_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/SEIR_model_island.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getupdate.py" beforeDir="false" afterPath="$PROJECT_DIR$/getupdate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/SEIR_country.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SEIR_country.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>

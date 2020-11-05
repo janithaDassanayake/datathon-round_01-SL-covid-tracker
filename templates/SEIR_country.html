@@ -12,13 +12,13 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet"/>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <title>ලංකාවේ Covid-19 Cases Prediction</title>
     <link rel="shortcut icon" href="{{ url_for('static', filename='sri-lanka-flag-waving-icon-256.png') }}">
@@ -37,7 +37,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
-     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js'></script>
 
 
     <!-- Custom styles for this template-->
@@ -48,20 +48,14 @@
 
 <body id="page-top" style="background:red">
 
-<div id="popUpMain">
-    <div id="popup">
-
-    </div>
-</div>
 
 <!-- Page Wrapper -->
 <div id="wrapper" style="background:red">
 
 
-
-
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" style="background:#0d1616" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" style="background:#0d1616"
+        id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
@@ -80,7 +74,7 @@
             <input type="submit" value="  Try with SEIR Model  " class="btn btn-success" style="color:white;">
         </form>
 
-          <form class="form-group" style="text-align:center;" action="/Linear_Regression">
+        <form class="form-group" style="text-align:center;" action="/Linear_Regression">
             <hr class="sidebar-divider">
             <br>
             <input type="submit" value="Try with Linear Regression" class="btn btn-danger" style="color:white;">
@@ -88,78 +82,101 @@
 
 
         <hr class="sidebar-divider">
-        <form class="form-group" style="text-align:center;" >
-        <h3 style="font-size:117%;">COVID-19 Total Figures (SL)</h3>
+        <form class="form-group" style="text-align:center;">
+            <h3 style="font-size:117%;">COVID-19 Total Figures (SL)</h3>
             <h4 style="font-size:93%;color:white;">{{current_date_time_list[0]}}</h4>
 
             <!-- Heading -->
             <!-- Heading -->
             <div class="sidebar-brand-text mx-5" style="color:#FFBF00;">
 
-            <div >
-                <div class="box-part text-center"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-calendar2-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
-  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"/>
-  <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
-                </svg></i>
-                    <div class="title" >
-                        <h3 style="font-size:150%;">Confirmed</h3>
-                        <h5 style="font-size:90%;">ආසාධිතවු මුලු ගණන</h5>
+                <div>
+                    <div class="box-part text-center"><i>
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-calendar2-check"
+                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+                            <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"/>
+                            <path fill-rule="evenodd"
+                                  d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                        </svg>
+                    </i>
+                        <div class="title">
+                            <h3 style="font-size:150%;">Confirmed</h3>
+                            <h5 style="font-size:90%;">ආසාධිතවු මුලු ගණන</h5>
+                        </div>
+                        <div class="title"><h2>{{case_values[0]}}</h2></div>
                     </div>
-                    <div class="title"> <h2>{{case_values[0]}}</h2> </div>
                 </div>
-            </div>
 
 
-                   <div >
-                <div class="box-part text-center"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-bookmark-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
-  <path fill-rule="evenodd" d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
-</svg></i>
-                    <div class="title">
-                        <h3 style="font-size:150%;">Recovered</h3>
-                        <h5 style="font-size:90%;">සුව වූ සංඛ්‍යාව</h5>
+                <div>
+                    <div class="box-part text-center"><i>
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-bookmark-heart"
+                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                            <path fill-rule="evenodd"
+                                  d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
+                        </svg>
+                    </i>
+                        <div class="title">
+                            <h3 style="font-size:150%;">Recovered</h3>
+                            <h5 style="font-size:90%;">සුව වූ සංඛ්‍යාව</h5>
+                        </div>
+                        <div class="title" style="font-size:117%;"><h2>{{case_values[3]}}</h2></div>
                     </div>
-                    <div class="title" style="font-size:117%;"> <h2>{{case_values[3]}}</h2> </div>
                 </div>
-            </div>
 
 
-            <div >
-                <div class="box-part text-center"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-receipt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v12a.5.5 0 0 1-.053.224l-.5 1a.5.5 0 0 1-.8.13L13 14.707l-.646.647a.5.5 0 0 1-.708 0L11 14.707l-.646.647a.5.5 0 0 1-.708 0L9 14.707l-.646.647a.5.5 0 0 1-.708 0L7 14.707l-.646.647a.5.5 0 0 1-.708 0L5 14.707l-.646.647a.5.5 0 0 1-.708 0L3 14.707l-.646.647a.5.5 0 0 1-.801-.13l-.5-1A.5.5 0 0 1 1 14V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zm.217 1.338L2 2.118v11.764l.137.274.51-.51a.5.5 0 0 1 .707 0l.646.647.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.509.509.137-.274V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51z"/>
-  <path fill-rule="evenodd" d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
-</svg></i>
-                    <div class="title">
-                        <h3 style="font-size:150%;">Active Cases</h3>
-                         <h5 style="font-size:90%;">ආසාධිත සංඛ්‍යාව</h5>
+                <div>
+                    <div class="box-part text-center"><i>
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-receipt" fill="currentColor"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v12a.5.5 0 0 1-.053.224l-.5 1a.5.5 0 0 1-.8.13L13 14.707l-.646.647a.5.5 0 0 1-.708 0L11 14.707l-.646.647a.5.5 0 0 1-.708 0L9 14.707l-.646.647a.5.5 0 0 1-.708 0L7 14.707l-.646.647a.5.5 0 0 1-.708 0L5 14.707l-.646.647a.5.5 0 0 1-.708 0L3 14.707l-.646.647a.5.5 0 0 1-.801-.13l-.5-1A.5.5 0 0 1 1 14V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zm.217 1.338L2 2.118v11.764l.137.274.51-.51a.5.5 0 0 1 .707 0l.646.647.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.509.509.137-.274V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51z"/>
+                            <path fill-rule="evenodd"
+                                  d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </i>
+                        <div class="title">
+                            <h3 style="font-size:150%;">Active Cases</h3>
+                            <h5 style="font-size:90%;">ආසාධිත සංඛ්‍යාව</h5>
+                        </div>
+                        <div class="title"><h2>{{case_values[1]}}</h2></div>
                     </div>
-                    <div class="title"> <h2>{{case_values[1]}}</h2> </div>
                 </div>
-            </div>
-  <div >
-                <div class="box-part text-center"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-bar-chart-line-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
-</svg></i>
-                    <div class="title">
-                        <h3 style="font-size:150%;">New Cases</h3>
-                        <h5 style="font-size:90%;">නව ආසාදිතයින්</h5>
+                <div>
+                    <div class="box-part text-center"><i>
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-bar-chart-line-fill"
+                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+                        </svg>
+                    </i>
+                        <div class="title">
+                            <h3 style="font-size:150%;">New Cases</h3>
+                            <h5 style="font-size:90%;">නව ආසාදිතයින්</h5>
+                        </div>
+                        <div class="title"><h2>{{case_values[2]}}</h2></div>
                     </div>
-                    <div class="title"> <h2>{{case_values[2]}}</h2> </div>
                 </div>
-            </div>
 
-              <div >
-                <div class="box-part text-center"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5-.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
-</svg></i>
-                    <div class="title">
-                        <h3 style="font-size:150%;">Deaths</h3>
-                        <h5 style="font-size:90%;">කොරෝනා මරණ</h5>
+                <div>
+                    <div class="box-part text-center"><i>
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-dash-fill"
+                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5-.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </i>
+                        <div class="title">
+                            <h3 style="font-size:150%;">Deaths</h3>
+                            <h5 style="font-size:90%;">කොරෝනා මරණ</h5>
+                        </div>
+                        <div class="title"><h2>{{case_values[4]}}</h2></div>
                     </div>
-            <div class="title"> <h2>{{case_values[4]}}</h2> </div>
                 </div>
-            </div>
 
 
             </div>
@@ -173,133 +190,142 @@
 
     </ul>
 
-    <div id="content-wrapper" class="d-flex flex-column"style="background:#47476b">
+    <div id="content-wrapper" class="d-flex flex-column" style="background:#47476b">
         <!-- Main Content -->
-        <div id="content"style="background:#47476b">
+        <div id="content" style="background:#47476b">
 
 
+            <nav class="navbar navbar-expand-sm" style="background-color: #0d1616">
+                <!-- Brand -->
+                <a class="navbar-brand" href=""> </a>
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="/">COUNTRY statistics</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"> </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                            District Prediction
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle2">DISTRICT Prediction feature
+                                            Coming Soon</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        This feature is under construction . It will be here soon <br>
+                                        Thank you !
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"> </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                            Cluster Prediction
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle1">Cluster Prediction feature
+                                            Coming Soon</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        This feature is under construction . It will be here soon <br>
+                                        Thank you !
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"> </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModalCenter">
+                            Geographical Prediction
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Coming Soon </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        This feature is under construction . It will be here soon<br>
+                                        Thank you !
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Dropdown -->
+
+                </ul>
+            </nav>
+
+            <br>
 
 
-<nav class="navbar navbar-expand-sm" style="background-color: #0d1616">
-  <!-- Brand -->
-  <a class="navbar-brand" href=""> </a>
-
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a  class="btn btn-primary" href="/"   >COUNTRY statistics</a>
-    </li>
-
-    <li class="nav-item">
-      <a class="nav-link" >              </a>
-    </li>
-
-   <li class="nav-item">
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  District Prediction
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle2">DISTRICT Prediction feature Coming Soon</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          This feature is under construction . It will be here soon <br>
-          Thank you !
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-    </li>
-
-      <li class="nav-item">
-      <a class="nav-link" >              </a>
-    </li>
-
-      <li class="nav-item">
-         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Cluster Prediction
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle1">Cluster Prediction feature Coming Soon</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          This feature is under construction . It will be here soon <br>
-          Thank you !
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-    </li>
-
-      <li class="nav-item">
-      <a class="nav-link" >              </a>
-    </li>
-
-       <li class="nav-item">
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Geographical Prediction
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Coming Soon </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          This feature is under construction . It will be here soon<br>
-          Thank you !
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-    </li>
-
-    <!-- Dropdown -->
-
-  </ul>
-</nav>
-
-<br>
-
-
-<br>
+            <br>
             {% if show_results_output == "false" %}
             <p style="text-align:center;margin-top:15%;color:red">
-                    <i class="fas fa-cogs fa-5x" style="color:#0d1616;"></i>
-                    <br/>
-                    <br/>
+                <i class="fas fa-cogs fa-5x" style="color:#0d1616;"></i>
+                <br/>
+                <br/>
 
-                    Start Analysis
-                </p>
+                Start Analysis
+            </p>
             <div class="container-fluid" style="display:none;">
 
                 {% else %}
@@ -308,20 +334,23 @@
                     <!-- Content Row -->
 
 
-        <h4 style="text-align:center;" class="text-uppercase font-weight amber-text mt-1 mb-2"><strong style="color:white;"> SEIR (Susceptible-Exposed-Infected-Removed) epidemic model </strong><i style="color:red;" class="far fa-heart ml-3"></i></h4>
+                    <h4 style="text-align:center;" class="text-uppercase font-weight amber-text mt-1 mb-2"><strong
+                            style="color:white;"> SEIR (Susceptible-Exposed-Infected-Removed) epidemic model </strong><i
+                            style="color:red;" class="far fa-heart ml-3"></i></h4>
 
                     <div class="row">
 
-                          <div class="col-xl-12 col-lg-7">
+                        <div class="col-xl-12 col-lg-7">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"style="background:#0d1616">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"
+                                     style="background:#0d1616">
                                     <h6 style="color:white;">ACTUAL VS PREDICTED Confirmed Cases</h6>
 
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body" style="color:#0d1616">
-                                    <div class="chart-area" >
+                                    <div class="chart-area">
                                         <canvas id="myAreaChart_1"></canvas>
                                     </div>
                                 </div>
@@ -331,12 +360,13 @@
 
                         <!-- Area Chart -->
 
-                            <!-- Begin Page Content -->
+                        <!-- Begin Page Content -->
                         <div class="container-fluid">
 
                             <!-- Page Heading -->
                             <h4 style="color:white;">PREDICTING 2 DAYS INTO FUTURE </h4>
-                            <p style="color:white;">Predicted Confirm Count for the next 2 days from {{ prediction_result_date }} ! Check below  </p>
+                            <p style="color:white;">Predicted Confirm Count for the next 2 days from {{
+                                prediction_result_date }} ! Check below </p>
 
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3" style="background:#0d1616">
@@ -344,7 +374,8 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
-                                        <table class="table table-bordered" id="dataTable13" width="100%" cellspacing="0">
+                                        <table class="table table-bordered" id="dataTable13" width="100%"
+                                               cellspacing="0">
                                             <thead>
                                             <tr>
                                                 <th>DATE</th>
@@ -365,133 +396,171 @@
                             </div>
                         </div>
 
-                    <!--piechart---------------------------->
+                        <!--piechart---------------------------->
 
-                    <div class="card-body">
-                    <div class="row">
-                          <div class="col-xl-6 col-lg-7">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"style="background:#0d1616">
-                                    <h6 style="color:white; text-align: center; alignment: center; font-weight: bolder; font-size: larger">Death Count vs Active Count vs Recovered Count</h6>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-7">
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Header - Dropdown -->
+                                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"
+                                             style="background:#0d1616">
+                                            <h6 style="color:white; text-align: center; alignment: center; font-weight: bolder; font-size: larger">
+                                                Death Count vs Active Count vs Recovered Count</h6>
+
+                                        </div>
+                                        <!-- Card Body -->
+                                        <div class="card-body" style="color:#0d1616">
+                                            <div id="chartContainer3" style="height: 370px; width: 100%;"></div>
+                                            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xl-6 col-lg-7">
+
+                                    <div class="card shadow mb-4">
+                                        <!-- Card Header - Dropdown -->
+                                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"
+                                             style="background:#0d1616;">
+                                            <h6 style="color:white; text-align: center; alignment: center; font-weight: bolder; font-size: larger">
+                                                Country Current Situation</h6>
+
+                                        </div>
+                                        <!-- Card Body -->
+                                        <div class="card-body" style="background:#d1616">
+                                            <div id="chartContainer4"
+                                                 style="height: 370px; width: 100%;background:#0d1616;"></div>
+                                            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                        </div>
+                                    </div>
 
                                 </div>
-                                <!-- Card Body -->
-                                    <div class="card-body" style="color:#0d1616">
-                                        <div id="chartContainer3" style="height: 370px; width: 100%;"></div>
-                                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-                                </div>
+
                             </div>
                         </div>
 
 
-
-                         <div class="col-xl-6 col-lg-7">
-
-                          <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between"style="background:#0d1616;">
-                                    <h6 style="color:white; text-align: center; alignment: center; font-weight: bolder; font-size: larger">Country Current Situation</h6>
-
-                                </div>
-                                <!-- Card Body -->
-                                <div class="card-body" style="background:#d1616">
-                                        <div id="chartContainer4" style="height: 370px; width: 100%;background:#0d1616;"></div>
-                                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-                                </div>
-                           </div>
-
-                        </div>
-
-                     </div>
-                    </div>
+                        <!----------------------------------------->
 
 
-
-
-
-
-
-
-
-                    <!----------------------------------------->
-
-
-                            <!-- Begin Page Content -->
+                        <!-- Begin Page Content -->
                         <div class="container-fluid">
 
                             <!-- Page Heading -->
                             <!-- DataTales Example -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3" style="background:#0d1616">
-                                    <h6 style="text-align:center; color:white;">BREAKDOWN OF THE SITUATION IN SRI LANKA</h6>
+                                    <h6 style="text-align:center; color:white;">BREAKDOWN OF THE SITUATION IN SRI
+                                        LANKA</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
-                                            <table class="table table-bordered" id="dataTable4" width="80%" cellspacing="0">
-                                                <tr>
-                                                <th><div class="vs-card--content">
-                                                    <div id="map_container_div" style="height: 880px;">
-                                                        <img src="https://raw.githubusercontent.com/arimacdev/covid19-srilankan-data/master/Districts/district_heatmap.png" alt="map image" class="map-ing" style="height: 80% !important; object-fit: cover;">
+                                        <table class="table table-bordered" id="dataTable4" width="80%" cellspacing="0">
+                                            <tr>
+                                                <th>
+                                                    <div class="vs-card--content">
+                                                        <div id="map_container_div" style="height: 880px;">
+                                                            <img src="https://raw.githubusercontent.com/arimacdev/covid19-srilankan-data/master/Districts/district_heatmap.png"
+                                                                 alt="map image" class="map-ing"
+                                                                 style="height: 80% !important; object-fit: cover;">
+                                                        </div>
                                                     </div>
-                                                </div>
 
                                                 </th>
 
                                                 <th>
-<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-  <div class="card-header" style="color:black;"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-bookmark-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
-  <path fill-rule="evenodd" d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
-</svg></i> Recovered Rate </div>
-  <div class="card-body">
-    <h5 class="card-title">{{new_rate_lists[0]}} %</h5>
-  </div>
-</div>
-<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-  <div class="card-header" style="color:black;"> <i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-receipt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v12a.5.5 0 0 1-.053.224l-.5 1a.5.5 0 0 1-.8.13L13 14.707l-.646.647a.5.5 0 0 1-.708 0L11 14.707l-.646.647a.5.5 0 0 1-.708 0L9 14.707l-.646.647a.5.5 0 0 1-.708 0L7 14.707l-.646.647a.5.5 0 0 1-.708 0L5 14.707l-.646.647a.5.5 0 0 1-.708 0L3 14.707l-.646.647a.5.5 0 0 1-.801-.13l-.5-1A.5.5 0 0 1 1 14V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zm.217 1.338L2 2.118v11.764l.137.274.51-.51a.5.5 0 0 1 .707 0l.646.647.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.509.509.137-.274V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51z"/>
-  <path fill-rule="evenodd" d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
-</svg></i> Active Cases Rate</div>
-  <div class="card-body">
-    <h5 class="card-title">{{new_rate_lists[3]}} %</h5>
-  </div>
-</div>
+                                                    <div class="card text-white bg-secondary mb-3"
+                                                         style="max-width: 18rem;">
+                                                        <div class="card-header" style="color:black;"><i>
+                                                            <svg width="2em" height="2em" viewBox="0 0 16 16"
+                                                                 class="bi bi-bookmark-heart" fill="currentColor"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd"
+                                                                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                                                <path fill-rule="evenodd"
+                                                                      d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
+                                                            </svg>
+                                                        </i> Recovered Rate
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">{{new_rate_lists[0]}} %</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card text-white bg-success mb-3"
+                                                         style="max-width: 18rem;">
+                                                        <div class="card-header" style="color:black;"><i>
+                                                            <svg width="2em" height="2em" viewBox="0 0 16 16"
+                                                                 class="bi bi-receipt" fill="currentColor"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd"
+                                                                      d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v12a.5.5 0 0 1-.053.224l-.5 1a.5.5 0 0 1-.8.13L13 14.707l-.646.647a.5.5 0 0 1-.708 0L11 14.707l-.646.647a.5.5 0 0 1-.708 0L9 14.707l-.646.647a.5.5 0 0 1-.708 0L7 14.707l-.646.647a.5.5 0 0 1-.708 0L5 14.707l-.646.647a.5.5 0 0 1-.708 0L3 14.707l-.646.647a.5.5 0 0 1-.801-.13l-.5-1A.5.5 0 0 1 1 14V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zm.217 1.338L2 2.118v11.764l.137.274.51-.51a.5.5 0 0 1 .707 0l.646.647.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.646.646.646-.646a.5.5 0 0 1 .708 0l.509.509.137-.274V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51z"/>
+                                                                <path fill-rule="evenodd"
+                                                                      d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+                                                            </svg>
+                                                        </i> Active Cases Rate
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">{{new_rate_lists[3]}} %</h5>
+                                                        </div>
+                                                    </div>
 
-<div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
-  <div class="card-header" style="color:black;"><i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5-.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
-</svg></i> Mortality Rate</div>
-  <div class="card-body">
-    <h5 class="card-title">{{new_rate_lists[1]}} %</h5>
-  </div>
-</div>
-<div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
-  <div class="card-header" style="color:black;"><i><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-calendar2-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
-  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"/>
-  <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
-                </svg></i> CLOSED Cases Rate</div>
-  <div class="card-body">
-    <h5 class="card-title">{{new_rate_lists[2]}} %</h5>
-  </div>
-</div>
+                                                    <div class="card text-white bg-danger mb-3"
+                                                         style="max-width: 18rem;">
+                                                        <div class="card-header" style="color:black;"><i>
+                                                            <svg width="2em" height="2em" viewBox="0 0 16 16"
+                                                                 class="bi bi-person-dash-fill" fill="currentColor"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd"
+                                                                      d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5-.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                                                            </svg>
+                                                        </i> Mortality Rate
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">{{new_rate_lists[1]}} %</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card text-white bg-warning mb-3"
+                                                         style="max-width: 18rem;">
+                                                        <div class="card-header" style="color:black;"><i>
+                                                            <svg width="2em" height="2em" viewBox="0 0 16 16"
+                                                                 class="bi bi-calendar2-check" fill="currentColor"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd"
+                                                                      d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+                                                                <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"/>
+                                                                <path fill-rule="evenodd"
+                                                                      d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                                                            </svg>
+                                                        </i> CLOSED Cases Rate
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">{{new_rate_lists[2]}} %</h5>
+                                                        </div>
+                                                    </div>
 
                                                 </th>
 
                                             </tr>
 
 
-    <!--Card Primary-->
-    <div class="card indigo text-center z-depth-2">
-      <div class="card-body">
+                                            <!--Card Primary-->
+                                            <div class="card indigo text-center z-depth-2">
+                                                <div class="card-body">
 
-        <h3 class="text-uppercase font-weight-bold amber-text mt-2 mb-3"><strong style="color:#4d4d00;">  Coronavirus (COVID-19) Calculated Rates </strong><i style="color:red;" class="glyphicon glyphicon-signal"></i></h3>
-        <p class="white-text mb-0" style="color:black;">Last updated: {{current_date_time_list[0]}}  |  {{current_date_time_list[1]}}</p>
+                                                    <h3 class="text-uppercase font-weight-bold amber-text mt-2 mb-3">
+                                                        <strong style="color:#4d4d00;"> Coronavirus (COVID-19)
+                                                            Calculated Rates </strong><i style="color:red;"
+                                                                                         class="glyphicon glyphicon-signal"></i>
+                                                    </h3>
+                                                    <p class="white-text mb-0" style="color:black;">Last updated:
+                                                        {{current_date_time_list[0]}} |
+                                                        {{current_date_time_list[1]}}</p>
 
-      </div>
+                                                </div>
 
-    </div>
+                                            </div>
 
                                         </table>
                                         <!-- Grid column -->
@@ -502,13 +571,6 @@
                         </div>
 
 
-
-
-
-
-
-
-
                     </div>
                 </div>
                 <!-- /.container-fluid -->
@@ -516,10 +578,10 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer" style="background:#0d1616" >
+            <footer class="sticky-footer" style="background:#0d1616">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                         <marquee><span>Copyright &copy; SLIIT Covid-19 Prediction - 2020</span> </marquee>
+                        <marquee><span>Copyright &copy; SLIIT Covid-19 Prediction - 2020</span></marquee>
                     </div>
                 </div>
             </footer>
@@ -527,7 +589,7 @@
 
         </div>
         <!-- End of Content Wrapper -->
-
+    </div>
     </div>
     <!-- End of Page Wrapper -->
 
@@ -679,12 +741,11 @@ var myLineChart = new Chart(ctx, {
 });
 $('select').selectpicker();
 
+
     </script>
 
 
-
-
-<script>
+    <script>
 window.onload = function () {
     CanvasJS.addColorSet("greenShades",
                 [//colorSet Array
@@ -739,25 +800,8 @@ chart.render();
 }
 
 
-</script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </script>
 
 
 </body>

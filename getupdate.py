@@ -34,10 +34,10 @@ def scrape_current_updates():
             Recovery = 0
             death = 0
 
-        closed = int(Recovery)+int(death)
+        closed = int(Recovery) + int(death)
 
         update_dict = {'confirmed Cases': confirmed, 'active Cases': active, 'new Cases': newCase,
-                       'recovered Cases': Recovery, 'death Cases': death,'closed cases':closed}
+                       'recovered Cases': Recovery, 'death Cases': death, 'closed cases': closed}
 
     return update_dict
 
@@ -54,16 +54,16 @@ def calc_rates():
     death_Cases = int(case_value[4])
 
     # COVID-19 Mortality Rate.
-    Mortality_Rate = round((death_Cases / confirmed_Cases)*100,1)
+    Mortality_Rate = round((death_Cases / confirmed_Cases) * 100, 1)
 
     # COVID-19 Recovered rate
-    Recovered_rate = round((recovered_Cases / confirmed_Cases)*100,2)
+    Recovered_rate = round((recovered_Cases / confirmed_Cases) * 100, 2)
 
     #  COVID-19 CLOSED Cases rate
-    CLOSED_Cases_Rate = round(((recovered_Cases + death_Cases) / confirmed_Cases)*100,2)
+    CLOSED_Cases_Rate = round(((recovered_Cases + death_Cases) / confirmed_Cases) * 100, 2)
 
     #  COVID-19 Active Cases rate
-    Active_Cases_rate = round((active_Cases / confirmed_Cases)*100,2)
+    Active_Cases_rate = round((active_Cases / confirmed_Cases) * 100, 2)
 
-    Rate_list = [Recovered_rate,Mortality_Rate,CLOSED_Cases_Rate,Active_Cases_rate]
+    Rate_list = [Recovered_rate, Mortality_Rate, CLOSED_Cases_Rate, Active_Cases_rate]
     return Rate_list

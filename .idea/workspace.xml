@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9defdb1a-d39d-4fcb-b279-4961b23cad5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEIR_model_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/SEIR_model_island.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getupdate.py" beforeDir="false" afterPath="$PROJECT_DIR$/getupdate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/SEIR_country.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SEIR_country.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
@@ -43,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/projects/python projects/FDM-MINI-Stock-Prices-Prediction" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,9 +71,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1990" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604433247006" />
-    <state x="2053" y="216" key="FileChooserDialogImpl" timestamp="1604557454619">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="489" y="121" key="FileChooserDialogImpl" timestamp="1604605050083">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="489" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604605050083" />
     <state x="2053" y="216" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604557454619" />
     <state x="-9" y="23" width="1328" height="764" key="dock-window-1" timestamp="1604419829260">
       <screen x="0" y="0" width="1366" height="728" />
